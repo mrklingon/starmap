@@ -91,6 +91,7 @@ VgerProbe.setBounceOnWall(true)
 VgerProbe.setStayInScreen(true)
 Label.setPosition(58, 25)
 Label.sayText("Welcome to Starmap", 1000, true)
+game.splash("Starmap displays multiple constellaations of the northern hemisphere,", "And lets you navigate a probe among the stars.")
 curconst = 1
 quads = [
 assets.image`quad`,
